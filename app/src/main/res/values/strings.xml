@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Hypotenuse</string>
+    <string name="text_hint_first_coordinates">First Coordinates</string>
+    <string name="text_hint_second_coordinates">Second Coordinates</string>
+    <string name="text_calculate">Calculate</string>
+    <string name="success_value_calculated">Calculated</string>
+    <string name="error_something_went_wrong">Something went wrong</string>
+    <string name="text_length">Length:</string>
+    <string name="text_area_mm">Area(In mm):</string>
+    <string name="text_area_sq_inches">Area(In Sq inches):</string>
+    <string name="angle_first">Angle First:</string>
+    <string name="angle_second">Angle Second:</string>
+</resources>
