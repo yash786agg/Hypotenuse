@@ -5,6 +5,8 @@ its area in square inches using __[Right Triangle Calculator](https://www.calcul
 To calculate application will accept two user inputs coordinates for lengths of the short sides 
 of a right-angled triangle.
 
+![Hypotenuse CI](https://github.com/yash786agg/Hypotenuse/workflows/Hypotenuse%20CI/badge.svg?branch=master)
+
 # Demo
 ![Hypotenuse](screenshots/right_traingle_calc_demo.gif)
 
