@@ -1,7 +1,6 @@
 package com.app.ui
 
 import android.os.Bundle
-import android.util.Log
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Observer
@@ -53,13 +52,6 @@ class HypotenuseActivity : AppCompatActivity() {
             activityHypotenuseBinding.edtTextSecondCoordinates.text.toString().toDouble()
         ).observe(this, Observer {
             it?.also {
-                Log.e("MainActivity", "------------------------------------------------------")
-                Log.e("MainActivity", "Length: ${it.length}")
-                Log.e("MainActivity", "AreaMM: ${it.areaMM}")
-                Log.e("MainActivity", "AreaSqInch: ${it.areaSqInch}")
-                Log.e("MainActivity", "AngleFirst: ${it.angleFirst}")
-                Log.e("MainActivity", "AngleSecond: ${it.angleSecond}")
-
                 activityHypotenuseBinding.lengthText.text = it.length.toString()
                 activityHypotenuseBinding.areaMmText.text = it.areaMM.toString()
                 activityHypotenuseBinding.areaSqInchesText.text = it.areaSqInch.toString()
