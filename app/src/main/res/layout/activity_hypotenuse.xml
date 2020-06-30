@@ -30,7 +30,7 @@
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
                 android:backgroundTint="@color/colorDeepCyan"
-                android:inputType="numberDecimal"
+                android:inputType="number"
                 android:textColor="@android:color/black"
                 android:textColorHint="@color/colorLightGray"
                 android:textCursorDrawable="@drawable/color_edttxt_cursor" />
@@ -55,7 +55,7 @@
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
                 android:backgroundTint="@color/colorDeepCyan"
-                android:inputType="numberDecimal"
+                android:inputType="number"
                 android:textColor="@android:color/black"
                 android:textColorHint="@color/colorLightGray"
                 android:textCursorDrawable="@drawable/color_edttxt_cursor" />
